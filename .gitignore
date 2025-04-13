@@ -1,0 +1,46 @@
+# Build results
+bin/
+obj/
+TestResults/
+*.dll
+*.exe
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# VS Code settings
+.vscode/
+
+# ReSharper & Rider
+*.DotSettings.user
+.idea/
+
+# Auto-generated files
+Generated_Code/
+
+# NuGet packages
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# .NET Core specific
+project.assets.json
+project.nuget.cache
+*.deps.json
+
+# Others
+*.db
+*.cache
+*.pid
+*.dump
+
+# Selenium logs and temp files
+chromedriver.log
+geckodriver.log
