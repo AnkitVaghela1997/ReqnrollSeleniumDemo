@@ -7,6 +7,8 @@ namespace ReqnrollSeleniumDemo.Utilities
     {
         public static IWebDriver CreateDriver()
         {
+            var options = new ChromeOptions();
+            options.AddArgument("--headless"); 
             return new ChromeDriver();
         }
     }

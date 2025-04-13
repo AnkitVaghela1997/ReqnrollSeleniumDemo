@@ -19,7 +19,9 @@ namespace ReqnrollSeleniumDemo.Hooks
         [BeforeScenario]
         public void BeforeScenario()
         {
-            _driver = new ChromeDriver();
+            var options = new ChromeOptions();
+            options.AddArgument("--headless"); 
+            _driver = new ChromeDriver(options);
             _driver.Manage().Window.Maximize();
 
             // Register WebDriver for dependency injection
